@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">problembasedtask</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="dot">.</string>
+    <string name="clear">AC</string>
+    <string name="feet">feet</string>
+    <string name="inches">inches</string>
+    <string name="centimeters">centimeters</string>
+    <string name="meters">meters</string>
+    <string name="err">error</string>
+    <string-array name="lengthDropdown1">
+        <item>meters</item>
+        <item>centimeters</item>
+        <item>feet</item>
+        <item>inches</item>
+    </string-array>
+    <string-array name="lengthDropdown2">
+        <item>centimeters</item>
+        <item>meters</item>
+        <item>feet</item>
+        <item>inches</item>
+    </string-array>
+    <string-array name="weightDropdown1">
+        <item>kilogram</item>
+        <item>gram</item>
+        <item>pound</item>
+        <item>ounce</item>
+    </string-array>
+    <string-array name="weightDropdown2">
+        <item>gram</item>
+        <item>kilogram</item>
+        <item>pound</item>
+        <item>ounce</item>
+    </string-array>
+    <string name="about">We are a firm that specializes in the services related to Project Management, Building Construction, Renovation as well as Built-in furniture. We aim to blend and embrace all the expertise and experiences of all our qualified builders and hardworking employees to offer excellence in terms of services to all our potential clients and customers</string>
+</resources>

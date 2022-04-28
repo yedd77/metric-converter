@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2F2F2F"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azrraf Smart Solution"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="16dp"
+            android:textColor="#FFFFFF"/>
+
+        <View
+            android:layout_width="90dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/fox_tech_logo_removebg_preview"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metric Converter"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:textColor="#F6F6F6"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:id="@+id/length"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:elevation="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Length"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textColor="#2F2F2F"/>
+
+        <View
+            android:layout_width="230dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_chevron_right_24px"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/weight"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:elevation="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textColor="#2F2F2F"/>
+
+        <View
+            android:layout_width="230dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_chevron_right_24px"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/infoBtn"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:elevation="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Info"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textColor="#2F2F2F"/>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/group_18"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyright © 2022 Azraf Smart Solution"
+            android:textColor="#f6f6f6"
+            android:textSize="12sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All rights reserved"
+            android:textColor="#f6f6f6"
+            android:textSize="12sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
